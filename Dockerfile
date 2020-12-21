@@ -16,3 +16,5 @@ WORKDIR /spring
 
 COPY --from=build-env /spring/target/spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar ./petclinic.jar
 CMD ["java", "-jar", "petclinic.jar"]
+
+

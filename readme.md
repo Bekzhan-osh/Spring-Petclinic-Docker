@@ -8,8 +8,9 @@
 ### Build application
 Build the Docker image manually by cloning the Git repo.
 ```
-$ git clone https://github.com/Bekzhan-osh/Spring-Petclinic-Docker.git
-$ docker build -t bekzhanosh/spring_petclinic .
+ git clone https://github.com/Bekzhan-osh/Spring-Petclinic-Docker.git
+ cd Spring-Petclinic-Docker
+ docker build -t bekzhanosh/spring_petclinic .
 ```
 
 ### Download precreated image
